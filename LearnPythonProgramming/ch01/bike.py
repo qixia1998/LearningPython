@@ -1,3 +1,4 @@
+# let's define the class Bike
 class Bike:
 
     def __init__(self, colour, frame_material):
@@ -7,13 +8,15 @@ class Bike:
     def brake(self):
         print("Braking!")
 
-
+# let's create a couple of instances
 red_bike = Bike('Red', 'Carbon fiber')
 blue_bike = Bike('Blue', 'Steel')
 
-print(red_bike.colour)
-print(red_bike.frame_material)
-print(blue_bike.colour)
-print(blue_bike.frame_material)
+# let's inspect the objects we have, instances of the Bike class.
+print(red_bike.colour)  # prints: Red
+print(red_bike.frame_material)  # prints: Carbon fiber
+print(blue_bike.colour)  # prints: Blue
+print(blue_bike.frame_material)  # prints: Steel
 
-red_bike.brake()
+# let's brake!
+red_bike.brake()  # prints: Braking!
